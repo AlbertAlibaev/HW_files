@@ -6,6 +6,7 @@ recipes_file = 'recipes.txt'
 full_path = os.path.join(basic_path, recipes_file)
 item_keys = ['Ingredient name', 'quantity', 'measure']
 
+
 def list_recipes(recipes_path):
     with open(recipes_path, encoding='utf-8') as recipe_file:
         cook_book = {}
